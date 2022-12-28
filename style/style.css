@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 44px 130px 0 118px;
+    align-items: center;
+}
+
+.logo {
+    width: 206px;
+    height: 60px;
+    font-family: 'Syne', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.logo a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 484px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 200px;
+}
+
+/* banner */
+.banner {
+    /* display: flex; */
+    margin-left: 120px;
+    justify-content: space-between;
+}
+
+.bannerImage {
+    width: 745px;
+    height: 692px;
+    position: absolute;
+    left: 650px;
+    top: 100px;
+}
+
+.soya {
+    width: 745px;
+    height: 692px;
+    position: absolute;
+    left: 700px;
+    top: 180px;
+    z-index: -1;
+}
+
+.info {
+    margin-top: 120px;
+    width: 639px;
+    height: 422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 115%;
+    width: 639px;
+}
+
+.year {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 115%;
+    color: #CA0200;
+    border: 2px dashed #CA0200;
+    width: 218px;
+    text-align: center;
+}
+
+.info p {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 115%;
+    width: 550px;
+    height: 46px;
+}
+
+.main-btn {
+    width: 283px;
+    height: 69px;
+    background: #CA0200;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34.5px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 115%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.rectangle {
+    position: absolute;
+    width: 641px;
+    height: 1024px;
+    z-index: -2;
+    left: 800px;
+    top: -40px;
+
+    background: linear-gradient(180deg, #CA0200 46.19%, rgba(255, 177, 153, 0) 122.31%);
+    border-radius: 320.5px;
+    transform: rotate(90deg);
+}
+
+.socialLinks {
+    margin-top: 200px;
+    display: flex;
+    height: 211px;
+}
+
+.links {
+    width: 739px;
+    height: 211px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)), linear-gradient(0deg, rgba(163, 183, 245, 0.84), rgba(163, 183, 245, 0.84)), url(../assets/images/R25.png);
+    color: #fff;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 115%;
+}
+
+.more {
+    width: 600px;
+    height: 211px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+}
+
+.more h3 {
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.card {
+    width: 1050px;
+    height: 525px;
+    display: flex;
+    margin: 143px auto;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card div h1 {
+    left: 600px;
+    width: 618px;
+    height: 210px;
+    position: absolute;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 105.5%;
+}
+
+.card div p {
+    margin-top: 230px;
+    margin-left: 100px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: rgba(0, 0, 0, 0.71);
+}
+
+.card div button {
+    margin-left: 100px;
+}
+
+.trending {
+    text-align: center;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 105.5%;
+    margin: 14px;
+}
+
+.trends {
+    width: 90vw;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 424px;
+    justify-content: space-between;
+}
+
+.box h3 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.box h3 img {
+    margin-right: 8px;
+}
+
+.secondary-btn {
+    background: #CA0200;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 21.5px;
+    border: none;
+    color: #fff;
+    width: 235px;
+    height: 43px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.description {
+    text-align: center;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 105.5%;
+}
+
+.gallery {
+    display: flex;
+    gap: 40px;
+    margin: 40px auto;
+    width: 1156px;
+}
+
+.gallery img {
+    cursor: pointer;
+}
+
+.whiteshoe {
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 1156px;
+    height: 345px;
+    background: #A3B7F5;
+    box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    padding-bottom: 50px;
+}
+
+.form {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.form h4 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 105.5%;
+    margin-bottom: 60px;
+}
+
+.form input {
+    width: 602px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    border: none;
+    padding-left: 38px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 115%;
+    margin-bottom: 50px;
+}
+
+.subscribe {
+    background: #CA0200;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34.5px;
+    color: #fff;
+    border: none;
+    width: 172px;
+    height: 41.94px;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 115%;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    height: 290px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer div,
+h4 {
+    margin-top: 50px;
+}
+
+.top {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.footerLink {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+}
